@@ -23,8 +23,8 @@ The project tries to monitor, analyze and suggest human health and lifestyle dat
 
 
 ## Usage
-
-This project is 
+Current functionalities include:
+1. Image to list of ingredients.
 
 ## Contributing
 
