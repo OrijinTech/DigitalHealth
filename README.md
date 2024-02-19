@@ -23,7 +23,17 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
     <img src="https://github.com/OrijinTech/DigitalHealth/assets/32666867/bb4e6fa9-ced7-4f2e-a0d6-2d49f47ca968" alt="Chinese_idea" width="400"/>
 </div>
 
-
+### Ideal Functionalities:
+1. Onboard on IOS (Android in the future)
+2. Photo taking or Uploading photo as user input.
+4. Photo(input) --> Nutrition Data(Output)
+5. Ingredients detection
+6. Nutrition calculation
+7. Water intake logging (Manual input)
+8. Reward system for water intake.
+9. Food intake logging (From the user's photo)
+10. User data storage
+11. Health Report generation
 
 
 ## Installation
@@ -41,7 +51,7 @@ Current functionalities include:
 ## Contributing
 
 Any contribution is needed! We will be managing all communications via Discord.
-Comming Soon: Discord Channel
+Coming Soon: Discord Channel
 
 ## License
 
@@ -49,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-Comming Soon
+Coming Soon
