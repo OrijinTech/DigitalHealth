@@ -8,11 +8,23 @@ The project tries to monitor, analyze and suggest human health and lifestyle dat
 
 ## Table of Contents
 
+- [Project Ideology](#project-ideology)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
+
+## Project Ideology
+
+The project is constructed with 4 major blocks: Data Acquisition, Data Analysis, Data Output, and External Device Compatibility.
+<div style="display:flex;">
+    <img src="https://github.com/OrijinTech/DigitalHealth/assets/32666867/0757ff27-1bc1-493c-9fa7-fe8e36b7c33c" alt="English_idea" width="400"/>
+    <img src="https://github.com/OrijinTech/DigitalHealth/assets/32666867/bb4e6fa9-ced7-4f2e-a0d6-2d49f47ca968" alt="Chinese_idea" width="400"/>
+</div>
+
+
+
 
 ## Installation
 
