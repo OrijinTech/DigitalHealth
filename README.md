@@ -29,11 +29,12 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
 4. Photo(input) --> Nutrition Data(Output)
 5. Ingredients detection
 6. Nutrition calculation
-7. Water intake logging (Manual input)
-8. Reward system for water intake.
-9. Food intake logging (From the user's photo)
-10. User data storage
-11. Health Report generation
+7. Food health level decision(whether the food is healthy or not).
+8. Water intake logging (Manual input)
+9. Reward system for water intake.
+10. Food intake logging (From the user's photo)
+11. User data storage
+12. Health Report generation
 
 
 ## Installation
