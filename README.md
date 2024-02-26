@@ -5,6 +5,7 @@
 
 The project tries to monitor, analyze and suggest human health and lifestyle data. This project allows individuals to understand their own health in a quantified way. The future of quantifying personal health. Of course this project is open to anyone who would like to contribute. Any contribution is welcome. Let's build the future of health and lifestyle!
 
+For more information please checkout the [whitepaper](https://aiyulabs.gitbook.io/digital-health/) !
 
 ## Table of Contents
 
