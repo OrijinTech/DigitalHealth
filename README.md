@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/stargazers)
 
-The project tries to monitor, analyze and suggest human health and lifestyle data. This project allows individuals to understand their own health in a quantified way. The future of quantifying personal health. Of course this project is open to anyone who would like to contribute. Any contribution is welcome. Let's build the future of health and lifestyle!
+The project tries to monitor, analyze and suggest human health and lifestyle data. This project allows individuals to understand their health in a quantified way. The future of quantifying personal health. Of course this project is open to anyone who would like to contribute. Any contribution you can make is welcome. Let's build the future of health and lifestyle!
 
-For more information please checkout the [whitepaper](https://aiyulabs.gitbook.io/digital-health/) !
+For more information please check out the [whitepaper](https://aiyulabs.gitbook.io/digital-health/) (In Progress) !
 
 ## Table of Contents
 
