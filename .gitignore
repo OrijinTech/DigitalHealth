@@ -1,0 +1,9 @@
+/DH_ML/food_dataset/*
+/DH_ML/food_dataset_hs_old/*
+/DH_ML/__pycache__/*
+/.ipynb_checkpoints/*
+/DH_ML/loss.png
+/DH_ML/ingredients_data.npy
+.DS_Store
+/DH_ML/ingredients_recognition/model.pth
+/DH_ML/heath_score/model.pth
