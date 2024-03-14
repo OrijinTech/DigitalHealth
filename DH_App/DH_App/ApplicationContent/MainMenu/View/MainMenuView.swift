@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainMenuView: View {
+    enum Tab: Int {
+        case myDay, myCoach, mediaInput, community, profile
+    }
     
     var body: some View {
         TabView {

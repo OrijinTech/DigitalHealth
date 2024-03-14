@@ -9,7 +9,6 @@ import SwiftUI
 
 struct WelcomeView: View {
     @StateObject var viewModel = MenuViewModel()
-    
     @State private var selectedTab = 0
     
     let tabData: [(imageName: String, title: String, description: String)] = [
@@ -20,10 +19,14 @@ struct WelcomeView: View {
     
     var body: some View {
         Group {
-            if viewModel.userSession != nil {
-                MainMenuView()
+            if viewModel.showLoadingScreen {
+                LoadingScreenView(viewModel: viewModel)
             } else {
-                welcomeView
+                if viewModel.userSession != nil {
+                    MainMenuView()
+                } else {
+                    welcomeView
+                }
             }
         }
     }
@@ -33,14 +36,14 @@ struct WelcomeView: View {
         NavigationStack {
             VStack {
                 Image("logo_black_t")
-                    .resizable().scaledToFit()
+                    .resizable().scaledToFill()
                     .frame(width: 120, height: 120)
                 
                 TabView {
                     ForEach(0..<tabData.count) { index in
                         VStack {
                             Image(tabData[index].imageName)
-                                .resizable()
+                                .resizable().scaledToFill()
                                 .frame(width: 300, height: 300)
                             
                             Text(tabData[index].title)
@@ -54,9 +57,11 @@ struct WelcomeView: View {
                         }
                     }
                 }
-                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 .padding(.top, -80)
-                
+                .tabViewStyle(PageTabViewStyle())
+                .onAppear{
+                    setupTab()
+                }
                 
                 NavigationLink {
                     RegistrationView()
@@ -65,8 +70,6 @@ struct WelcomeView: View {
                     Text("Join us for FREE                    ")
                 }
                 .modifier(StandardButtonStyle())
-
-                
                 
                 HStack {
                     Text("Already have an account")
@@ -82,6 +85,12 @@ struct WelcomeView: View {
                 Spacer()
             }
         }// End of Navigation Stack
+    }
+    
+    
+    func setupTab() {
+      UIPageControl.appearance().currentPageIndicatorTintColor = .black
+      UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
     }
     
 }

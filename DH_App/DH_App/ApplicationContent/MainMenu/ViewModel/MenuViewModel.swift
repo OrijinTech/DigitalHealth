@@ -11,6 +11,7 @@ import Combine
 
 class MenuViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
+    @Published var showLoadingScreen = true
     
     private var cancellable = Set<AnyCancellable>()
     
@@ -21,6 +22,7 @@ class MenuViewModel: ObservableObject {
     private func setupUser(){
         AuthServices.sharedAuth.$userSession.sink { [weak self] userSessionFromAuthService in
             self?.userSession = userSessionFromAuthService
+//            self?.showLoadingScreen = false
         }.store(in: &cancellable)
     }
     
